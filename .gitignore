@@ -93,3 +93,4 @@ obj/release/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
 obj/release/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.Manifest.cache
 obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.xml
+obj/Debug/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
