@@ -118,3 +118,4 @@ watools-log/obj/release/net5.0/watools-log.csproj.FileListAbsolute.txt
 watools-log/obj/release/net5.0/watools-log.csprojAssemblyReference.cache
 
 watools-log/obj/release/net5.0/watools-log.GeneratedMSBuildEditorConfig.editorconfig
+bin/release/net5.0/watools-log/bin/release/net5.0/watools-log.deps.json
