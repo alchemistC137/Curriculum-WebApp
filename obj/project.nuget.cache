@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hgiiFP7Bbl5O/hQGt9sWCZRCvn+ep1J1jfHHqVeN2Zed5v1JuZAMT8g+A3ntymvH0CXAoxSaKItg4/8FnVQpYg==",
+  "dgSpecHash": "/2nQs5q0Ld4ZsoNKzcXl5w4iBqz4cvdSDImHbDU3TFNuqUq8PlQLij91Uh9FvqnMHxaAfS8dVdLtOsb+8VjRbA==",
   "success": true,
   "projectFilePath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/Curriculum-WebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/alquimista/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/5.0.5/microsoft.netcore.app.runtime.linux-x64.5.0.5.nupkg.sha512",
+    "/home/alquimista/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/5.0.5/microsoft.aspnetcore.app.runtime.linux-x64.5.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
