@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 
 bin/Debug/net5.0/
+
+obj/Debug/net5.0/
