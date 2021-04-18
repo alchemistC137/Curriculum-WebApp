@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Curriculum_WebApp.Models;
+using
+using watools_log;
 
 namespace Curriculum_WebApp.Controllers
 {
@@ -16,7 +18,7 @@ namespace Curriculum_WebApp.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            //hola
+            Class1.setLog();
         }
 
         public IActionResult Index()

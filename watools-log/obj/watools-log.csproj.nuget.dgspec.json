@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/Curriculum-WebApp.csproj": {}
+    "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/watools-log.csproj": {}
   },
   "projects": {
-    "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/Curriculum-WebApp.csproj": {
+    "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/watools-log.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/Curriculum-WebApp.csproj",
-        "projectName": "Curriculum-WebApp",
-        "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/Curriculum-WebApp.csproj",
+        "projectUniqueName": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/watools-log.csproj",
+        "projectName": "watools-log",
+        "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/watools-log.csproj",
         "packagesPath": "/home/alquimista/.nuget/packages/",
-        "outputPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/obj/",
+        "outputPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alquimista/.nuget/NuGet/NuGet.Config"
@@ -48,9 +48,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
