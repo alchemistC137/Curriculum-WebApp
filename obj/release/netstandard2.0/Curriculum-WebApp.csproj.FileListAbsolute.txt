@@ -1,0 +1,2 @@
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/obj/release/netstandard2.0/Curriculum-WebApp.csproj.AssemblyReference.cache
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/obj/release/netstandard2.0/Curriculum-WebApp.csproj.CoreCompileInputs.cache
