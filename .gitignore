@@ -1,196 +1,124 @@
-# Prerequisites
-*.d
+# # Prerequisites
+# *.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# # Object files
+# *.o
+# *.ko
+# *.obj
+# *.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# # Linker output
+# *.ilk
+# *.map
+# *.exp
 
-# Precompiled Headers
-*.gch
-*.pch
+# # Precompiled Headers
+# *.gch
+# *.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# # Libraries
+# *.lib
+# *.a
+# *.la
+# *.lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# # Shared objects (inc. Windows DLLs)
+# *.dll
+# *.so
+# *.so.*
+# *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# # Executables
+# *.exe
+# *.out
+# *.app
+# *.i*86
+# *.x86_64
+# *.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# # Debug files
+# *.dSYM/
+# *.su
+# *.idb
+# *.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# # Kernel Module Compile Results
+# *.mod*
+# *.cmd
+# .tmp_versions/
+# modules.order
+# Module.symvers
+# Mkfile.old
+# dkms.conf
 
-bin/Debug/net5.0/
+# bin/Debug/net5.0/
 
-obj/Debug/net5.0/
-obj/Debug/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
-bin/release/net5.0/appsettings.Development.json
-bin/release/net5.0/appsettings.json
-bin/release/net5.0/Curriculum-WebApp
-bin/release/net5.0/Curriculum-WebApp.deps.json
-bin/release/net5.0/Curriculum-WebApp.runtimeconfig.dev.json
-bin/release/net5.0/Curriculum-WebApp.runtimeconfig.json
-obj/Curriculum-WebApp.csproj.nuget.dgspec.json
-obj/project.assets.json
-obj/project.nuget.cache
-obj/release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
-obj/release/net5.0/apphost
-obj/release/net5.0/Curriculum-WebApp.AssemblyInfo.cs
-obj/release/net5.0/Curriculum-WebApp.AssemblyInfoInputs.cache
-obj/release/net5.0/Curriculum-WebApp.assets.cache
-obj/release/net5.0/Curriculum-WebApp.csproj.CopyComplete
-obj/release/net5.0/Curriculum-WebApp.csproj.CoreCompileInputs.cache
-obj/release/net5.0/Curriculum-WebApp.csproj.FileListAbsolute.txt
-obj/release/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
-obj/release/net5.0/Curriculum-WebApp.GeneratedMSBuildEditorConfig.editorconfig
-obj/release/net5.0/Curriculum-WebApp.genruntimeconfig.cache
-obj/release/net5.0/Curriculum-WebApp.MvcApplicationPartsAssemblyInfo.cache
-obj/release/net5.0/Curriculum-WebApp.RazorAssemblyInfo.cache
-obj/release/net5.0/Curriculum-WebApp.RazorAssemblyInfo.cs
-obj/release/net5.0/Curriculum-WebApp.RazorCoreGenerate.cache
-obj/release/net5.0/Curriculum-WebApp.RazorTargetAssemblyInfo.cache
-obj/release/net5.0/Curriculum-WebApp.RazorTargetAssemblyInfo.cs
-obj/release/net5.0/Curriculum-WebApp.TagHelpers.input.cache
-obj/release/net5.0/Curriculum-WebApp.TagHelpers.output.cache
-obj/release/net5.0/PublishOutputs.cae6c26f38.txt
-obj/release/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
-obj/release/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
-obj/release/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-obj/release/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
-obj/release/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
-obj/release/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-obj/release/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
-obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.Manifest.cache
-obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.xml
-obj/Debug/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
+# obj/Debug/net5.0/
+# obj/Debug/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
+# bin/release/net5.0/appsettings.Development.json
+# bin/release/net5.0/appsettings.json
+# bin/release/net5.0/Curriculum-WebApp
+# bin/release/net5.0/Curriculum-WebApp.deps.json
+# bin/release/net5.0/Curriculum-WebApp.runtimeconfig.dev.json
+# bin/release/net5.0/Curriculum-WebApp.runtimeconfig.json
+# obj/Curriculum-WebApp.csproj.nuget.dgspec.json
+# obj/project.assets.json
+# obj/project.nuget.cache
+# obj/release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+# obj/release/net5.0/apphost
+# obj/release/net5.0/Curriculum-WebApp.AssemblyInfo.cs
+# obj/release/net5.0/Curriculum-WebApp.AssemblyInfoInputs.cache
+# obj/release/net5.0/Curriculum-WebApp.assets.cache
+# obj/release/net5.0/Curriculum-WebApp.csproj.CopyComplete
+# obj/release/net5.0/Curriculum-WebApp.csproj.CoreCompileInputs.cache
+# obj/release/net5.0/Curriculum-WebApp.csproj.FileListAbsolute.txt
+# obj/release/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
+# obj/release/net5.0/Curriculum-WebApp.GeneratedMSBuildEditorConfig.editorconfig
+# obj/release/net5.0/Curriculum-WebApp.genruntimeconfig.cache
+# obj/release/net5.0/Curriculum-WebApp.MvcApplicationPartsAssemblyInfo.cache
+# obj/release/net5.0/Curriculum-WebApp.RazorAssemblyInfo.cache
+# obj/release/net5.0/Curriculum-WebApp.RazorAssemblyInfo.cs
+# obj/release/net5.0/Curriculum-WebApp.RazorCoreGenerate.cache
+# obj/release/net5.0/Curriculum-WebApp.RazorTargetAssemblyInfo.cache
+# obj/release/net5.0/Curriculum-WebApp.RazorTargetAssemblyInfo.cs
+# obj/release/net5.0/Curriculum-WebApp.TagHelpers.input.cache
+# obj/release/net5.0/Curriculum-WebApp.TagHelpers.output.cache
+# obj/release/net5.0/PublishOutputs.cae6c26f38.txt
+# obj/release/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+# obj/release/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+# obj/release/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+# obj/release/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+# obj/release/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+# obj/release/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+# obj/release/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+# obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.Manifest.cache
+# obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.xml
+# obj/Debug/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
 
-<<<<<<< HEAD
-bin/release/net5.0/appsettings.Development.json
+# bin/release/net5.0/watools-log/obj/project.assets.json
 
-bin/release/net5.0/appsettings.json
+# bin/release/net5.0/watools-log/obj/watools-log.csproj.nuget.dgspec.json
 
-bin/release/net5.0/Curriculum-WebApp
+# watools-log/bin/release/net5.0/watools-log.deps.json
 
-bin/release/net5.0/Curriculum-WebApp.deps.json
+# watools-log/obj/release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
 
-bin/release/net5.0/Curriculum-WebApp.runtimeconfig.dev.json
+# watools-log/obj/release/net5.0/PublishOutputs.f5fbd4f112.txt
 
-bin/release/net5.0/Curriculum-WebApp.runtimeconfig.json
+# watools-log/obj/release/net5.0/watools-log.AssemblyInfo.cs
 
-obj/release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+# watools-log/obj/release/net5.0/watools-log.AssemblyInfoInputs.cache
 
-obj/release/net5.0/apphost
+# watools-log/obj/release/net5.0/watools-log.assets.cache
 
-obj/release/net5.0/Curriculum-WebApp.AssemblyInfo.cs
+# watools-log/obj/release/net5.0/watools-log.csproj.CoreCompileInputs.cache
 
-obj/release/net5.0/Curriculum-WebApp.AssemblyInfoInputs.cache
+# watools-log/obj/release/net5.0/watools-log.csproj.FileListAbsolute.txt
 
-obj/release/net5.0/Curriculum-WebApp.assets.cache
+# watools-log/obj/release/net5.0/watools-log.csprojAssemblyReference.cache
 
-obj/release/net5.0/Curriculum-WebApp.csproj.CopyComplete
-
-obj/release/net5.0/Curriculum-WebApp.csproj.CoreCompileInputs.cache
-
-obj/release/net5.0/Curriculum-WebApp.csproj.FileListAbsolute.txt
-
-obj/release/net5.0/Curriculum-WebApp.csprojAssemblyReference.cache
-
-obj/release/net5.0/Curriculum-WebApp.GeneratedMSBuildEditorConfig.editorconfig
-
-obj/release/net5.0/Curriculum-WebApp.genruntimeconfig.cache
-
-obj/release/net5.0/Curriculum-WebApp.MvcApplicationPartsAssemblyInfo.cache
-
-obj/release/net5.0/Curriculum-WebApp.RazorAssemblyInfo.cache
-
-obj/release/net5.0/Curriculum-WebApp.RazorAssemblyInfo.cs
-
-obj/release/net5.0/Curriculum-WebApp.RazorCoreGenerate.cache
-
-obj/release/net5.0/Curriculum-WebApp.RazorTargetAssemblyInfo.cache
-
-obj/release/net5.0/Curriculum-WebApp.RazorTargetAssemblyInfo.cs
-
-obj/release/net5.0/Curriculum-WebApp.TagHelpers.input.cache
-
-obj/release/net5.0/Curriculum-WebApp.TagHelpers.output.cache
-
-obj/release/net5.0/PublishOutputs.cae6c26f38.txt
-
-obj/release/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
-
-obj/release/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
-
-obj/release/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-
-obj/release/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
-
-obj/release/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
-
-obj/release/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-
-obj/release/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
-
-obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.Manifest.cache
-
-obj/release/net5.0/staticwebassets/Curriculum-WebApp.StaticWebAssets.xml
-=======
-bin/release/net5.0/watools-log/obj/project.assets.json
-
-bin/release/net5.0/watools-log/obj/watools-log.csproj.nuget.dgspec.json
-
-watools-log/bin/release/net5.0/watools-log.deps.json
-
-watools-log/obj/release/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
-
-watools-log/obj/release/net5.0/PublishOutputs.f5fbd4f112.txt
-
-watools-log/obj/release/net5.0/watools-log.AssemblyInfo.cs
-
-watools-log/obj/release/net5.0/watools-log.AssemblyInfoInputs.cache
-
-watools-log/obj/release/net5.0/watools-log.assets.cache
-
-watools-log/obj/release/net5.0/watools-log.csproj.CoreCompileInputs.cache
-
-watools-log/obj/release/net5.0/watools-log.csproj.FileListAbsolute.txt
-
-watools-log/obj/release/net5.0/watools-log.csprojAssemblyReference.cache
-
-watools-log/obj/release/net5.0/watools-log.GeneratedMSBuildEditorConfig.editorconfig
-bin/release/net5.0/watools-log/bin/release/net5.0/watools-log.deps.json
->>>>>>> develop
+# watools-log/obj/release/net5.0/watools-log.GeneratedMSBuildEditorConfig.editorconfig
+# bin/release/net5.0/watools-log/bin/release/net5.0/watools-log.deps.json
 
 ###################
 # compiled source #
