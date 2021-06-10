@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataKit\DataKit.csproj" />
-    <ProjectReference Include="..\LogKit\LogKit.csproj" />
+    <ProjectReference Include="DataKit\DataKit.csproj" />
+    <ProjectReference Include="LogKit\LogKit.csproj" />
   </ItemGroup>
 
 

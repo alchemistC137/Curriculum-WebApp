@@ -366,6 +366,26 @@
             "rid": "win"
           }
         }
+      },
+      "DataKit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DataKit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataKit.dll": {}
+        }
+      },
+      "LogKit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LogKit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogKit.dll": {}
+        }
       }
     }
   },
@@ -1068,11 +1088,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DataKit/1.0.0": {
+      "type": "project",
+      "path": "DataKit/DataKit.csproj",
+      "msbuildProject": "DataKit/DataKit.csproj"
+    },
+    "LogKit/1.0.0": {
+      "type": "project",
+      "path": "LogKit/LogKit.csproj",
+      "msbuildProject": "LogKit/LogKit.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Dapper.Extensions.NetCore >= 3.3.0",
+      "DataKit >= 1.0.0",
+      "LogKit >= 1.0.0",
       "MySqlConnector >= 1.3.3",
       "System.Data.SqlClient >= 4.4.0"
     ]
@@ -1101,7 +1133,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj": {
+              "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj"
+            },
+            "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj": {
+              "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
