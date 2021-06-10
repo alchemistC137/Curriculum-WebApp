@@ -3,25 +3,31 @@
 }
 
 <div class="text-center">
-    <h2>Curriculum en Aplición Web</h2>
+    <h2>Curriculum en Aplicación Web</h2>
     <h6>by Marco Memba</h6>
 </div>
 <div class="container position-absolute top-50 start-50 translate-middle">
     <div class="row justify-content-center">
         <div class="col col-sm-4">
-            <form>
+        @using (Html.BeginForm("checkCredentials", "Login", FormMethod.Post))
+        {
+
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Usuario de acceso</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="mail" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text">Introduzca el usuario proporcionado para el acceso.</div>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
                 </div>
 
-                <button type="submit" class="btn btn-primary" disabled>Login</button>
-            </form>
+                <button type="submit" class="btn btn-primary">Login</button>
+          } 
+
+            
+            
+            
         </div>
     </div>
 </div>
