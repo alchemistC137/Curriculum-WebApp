@@ -1,0 +1,3 @@
+/home/alquimista/Curriculum-WebApp-Compile/watools-log/watools-log.dll
+/home/alquimista/Curriculum-WebApp-Compile/watools-log/watools-log.deps.json
+/home/alquimista/Curriculum-WebApp-Compile/watools-log/watools-log.pdb

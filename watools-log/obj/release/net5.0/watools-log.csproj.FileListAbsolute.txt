@@ -1,0 +1,12 @@
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/bin/release/net5.0/watools-log.deps.json
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/bin/release/net5.0/watools-log.dll
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/bin/release/net5.0/ref/watools-log.dll
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/bin/release/net5.0/watools-log.pdb
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.csprojAssemblyReference.cache
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.GeneratedMSBuildEditorConfig.editorconfig
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.AssemblyInfoInputs.cache
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.AssemblyInfo.cs
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.csproj.CoreCompileInputs.cache
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.dll
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/ref/watools-log.dll
+/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/watools-log/obj/release/net5.0/watools-log.pdb
