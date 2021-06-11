@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj": {
-                "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj"
+              "/home/alquimista/NetCoreProjects/GitHubRepos/DataKit/DataKit.csproj": {
+                "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/DataKit/DataKit.csproj"
               },
-              "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj": {
-                "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj"
+              "/home/alquimista/NetCoreProjects/GitHubRepos/LogKit/LogKit.csproj": {
+                "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/LogKit/LogKit.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj": {
+    "/home/alquimista/NetCoreProjects/GitHubRepos/DataKit/DataKit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj",
+        "projectUniqueName": "/home/alquimista/NetCoreProjects/GitHubRepos/DataKit/DataKit.csproj",
         "projectName": "DataKit",
-        "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/DataKit.csproj",
+        "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/DataKit/DataKit.csproj",
         "packagesPath": "/home/alquimista/.nuget/packages/",
-        "outputPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/DataKit/obj/",
+        "outputPath": "/home/alquimista/NetCoreProjects/GitHubRepos/DataKit/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alquimista/.nuget/NuGet/NuGet.Config"
@@ -132,14 +132,14 @@
         }
       }
     },
-    "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj": {
+    "/home/alquimista/NetCoreProjects/GitHubRepos/LogKit/LogKit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj",
+        "projectUniqueName": "/home/alquimista/NetCoreProjects/GitHubRepos/LogKit/LogKit.csproj",
         "projectName": "LogKit",
-        "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/LogKit.csproj",
+        "projectPath": "/home/alquimista/NetCoreProjects/GitHubRepos/LogKit/LogKit.csproj",
         "packagesPath": "/home/alquimista/.nuget/packages/",
-        "outputPath": "/home/alquimista/NetCoreProjects/GitHubRepos/Curriculum-WebApp/LogKit/obj/",
+        "outputPath": "/home/alquimista/NetCoreProjects/GitHubRepos/LogKit/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alquimista/.nuget/NuGet/NuGet.Config"
