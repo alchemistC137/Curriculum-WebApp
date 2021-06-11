@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Curriculum_WebApp.Models;
 using Microsoft.AspNetCore.Http;
-using DataKit;
+using Datakit;
 
 namespace Curriculum_WebApp.Controllers
 {
     public class LoginController : Controller
     {
 
-        PoolConnection pc = new PoolConnection();
+        // PoolConnection pc = new PoolConnection();
 
         [HttpPost]
         public void checkCredentials(IFormCollection fc)
@@ -19,7 +19,7 @@ namespace Curriculum_WebApp.Controllers
             logedUser.user = fc["mail"].ToString();
             logedUser.pass = fc["pass"].ToString();
 
-            pc.saludo();
+            // pc.saludo();
 
         }
     }
