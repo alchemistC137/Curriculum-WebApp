@@ -9,11 +9,10 @@ namespace Curriculum_WebApp.Controllers
     public class LoginController : Controller
     {
 
-        IDataAccess dataAccess;
-        PoolConnection pc = new PoolConnection();
-
+        DataAccess dataAccess = new DataAccess();
+     
         [HttpPost]
-        public void checkCredentials(IFormCollection fc)
+        public IActionResult checkCredentials(IFormCollection fc)
         {
 
 
@@ -24,9 +23,17 @@ namespace Curriculum_WebApp.Controllers
 
 
 
-            dataAccess.checkCredentials(Helper.TypeConverter.UserModel_To_User(logedUser));
+            if (dataAccess.checkCredentials(Helper.TypeConverter.UserModel_To_User(logedUser)))
+            {
+                return View("../Home/Access");
+            }
+            else
+            {
+                return View("../Home/Index");
+            }
 
-            pc.getConnection(PoolConnection.ConnectionNames.app);
+
+
 
         }
     }
