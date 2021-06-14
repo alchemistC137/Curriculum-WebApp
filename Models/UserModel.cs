@@ -5,8 +5,8 @@ namespace Curriculum_WebApp.Models
 
     public class UserModel
     {
-        public string user { get; set; }
-        public string pass { get; set; }
+        public string IdUsuario { get; set; }
+        public string userName { get; set; }
 
 
 
