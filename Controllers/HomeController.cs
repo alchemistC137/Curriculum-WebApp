@@ -10,13 +10,14 @@ using System;
 using System.Data.Common;
 using Microsoft.Extensions.Options;
 using MySqlConnector;
+using Datakit;
 
 namespace Curriculum_WebApp.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IConfiguration config;
+        public readonly IConfiguration config;
 
 
 
@@ -25,6 +26,7 @@ namespace Curriculum_WebApp.Controllers
         {
             _logger = logger;
             config = configuration;
+             DataAccess.configuration = configuration;
 
         }
 
