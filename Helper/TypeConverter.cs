@@ -11,7 +11,7 @@ namespace Helper
         public static User UserModel_To_User(UserModel userModel)
         {
             User u = new User();
-            u.IdUsuario = userModel.IdUsuario;
+            u.password = userModel.password;
             u.userName = userModel.userName;
             
 

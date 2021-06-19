@@ -8,15 +8,15 @@ namespace Curriculum_WebApp.Controllers
 {
     public class LoginController : Controller
     {
-      
+
 
         DataAccess dataAccess = new DataAccess();
 
 
         public LoginController(IConfiguration configuration)
         {
-        
-          
+
+
         }
 
         [HttpPost]
@@ -26,13 +26,16 @@ namespace Curriculum_WebApp.Controllers
 
 
             UserModel logedUser = new UserModel();
-            //logedUser.IdUsuario = fc["mail"].ToString();
+
             logedUser.userName = fc["mail"].ToString();
 
+            logedUser.password = fc["pass"].ToString();
 
 
+            bool loginOK = dataAccess.checkCredentials(Helper.TypeConverter.UserModel_To_User(logedUser));
 
-            if (dataAccess.checkCredentials(Helper.TypeConverter.UserModel_To_User(logedUser)))
+
+            if (loginOK)
             {
                 return View("../Home/Access");
             }
