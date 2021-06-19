@@ -1,20 +1,46 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
+@* <div class="text-center mt-3">
     <h2>Curriculum en Aplicación Web</h2>
     <h6>by Marco Memba</h6>
-</div>
-<div class="container position-absolute top-50 start-50 translate-middle">
-    <div class="row justify-content-center">
-        <div class="col col-sm-4">
-        @using (Html.BeginForm("checkCredentials", "Login", FormMethod.Post))
-        {
+    </div> *@
 
-                <div class="mb-3">
+
+<div class="container-fluid mt-5">
+    <div class="row mb-5">
+        <div class="col">
+            <p></p>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <p></p>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <p></p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col col-xs-4">
+            @if (Curriculum_WebApp.Models.permissionsModel.AccessGrantedText == "KO")
+            {
+                <p class="text-danger fs-6 text-center text-">Acceso denegado</p>
+            }
+        </div>
+    </div>
+    <div class="row justify-content-center">
+
+        <div class="col col-sm-3 ">
+            @using (Html.BeginForm("checkCredentials", "Login", FormMethod.Post))
+            {
+                <div class="mb-3 ">
                     <label for="exampleInputEmail1" class="form-label">Usuario de acceso</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" name="mail" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="mail"
+                    aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text">Introduzca el usuario proporcionado para el acceso.</div>
                 </div>
                 <div class="mb-3">
@@ -22,12 +48,14 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Login</button>
-          } 
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary ">Login</button>
+                </div>
+            }
 
-            
-            
-            
         </div>
+
+
     </div>
+
 </div>

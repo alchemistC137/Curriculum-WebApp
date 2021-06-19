@@ -19,24 +19,21 @@ namespace Curriculum_WebApp.Controllers
         private readonly ILogger<HomeController> _logger;
         public readonly IConfiguration config;
 
-
-
-
         public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
+            Models.permissionsModel.AccessGranted = false;
+            Models.permissionsModel.AccessGrantedText = "OK";
             config = configuration;
-             DataAccess.configuration = configuration;
-
+            DataAccess.configuration = configuration;
+            Helper.DecryptAndEncrypt.configuration = configuration;
+            Helper.DecryptAndEncrypt.setCryptoFeed();
         }
-
 
         public IActionResult Index()
         {
             return View();
         }
-
-
 
         public IActionResult Privacy()
         {
