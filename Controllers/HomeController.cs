@@ -18,28 +18,35 @@ namespace Curriculum_WebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         public readonly IConfiguration config;
-
-
-
+        permissionsModel permissionsModel;
 
         public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
-            config = configuration;
-             DataAccess.configuration = configuration;
-
+            // permissionsModel = new permissionsModel();
+            // permissionsModel.AccessGranted = false;
+            // Models.permissionsModel.AccessGrantedText = "OK";
+            // config = configuration;
+            // DataAccess.configuration = configuration;
+            // Helper.DecryptAndEncrypt.configuration = configuration;
+            // Helper.DecryptAndEncrypt.setCryptoFeed();
         }
-
-
+        [Route("Index")]
         public IActionResult Index()
         {
+
+            return View();
+        }
+        [Route("TCU")]
+        public IActionResult TCU()
+        {
+            permissionsModel.AccessGranted = true;
             return View();
         }
 
-
-
-        public IActionResult Privacy()
+        public IActionResult Access()
         {
+            permissionsModel.AccessGranted = true;
             return View();
         }
 
