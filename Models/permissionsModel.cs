@@ -8,13 +8,6 @@ namespace Curriculum_WebApp.Models
         public static bool AccessGranted { get; set; }
 
         public static string AccessGrantedText { get; set; }
-
-
-
-
-       
-
-
     }
 }
 

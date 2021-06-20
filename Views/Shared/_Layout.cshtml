@@ -13,8 +13,11 @@
     <header>
         @if (Curriculum_WebApp.Models.permissionsModel.AccessGranted)
         {
-            @await Html.PartialAsync("_MainMenu.cshtml")
+           @await Html.PartialAsync("_MainMenu.cshtml") 
         }
+
+      
+
     </header>
     <div class="container-fluid">
 

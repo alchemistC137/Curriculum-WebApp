@@ -9,9 +9,23 @@ namespace Curriculum_WebApp.Controllers
     public class LoginController : Controller
     {
         DataAccess dataAccess = new DataAccess();
+        permissionsModel permissionsModel;
+         public readonly IConfiguration config;
         public LoginController(IConfiguration configuration)
         {
+            // _logger = logger;
+            permissionsModel = new permissionsModel();
+            permissionsModel.AccessGranted = false;
+            Models.permissionsModel.AccessGrantedText = "OK";
+            config = configuration;
+            DataAccess.configuration = configuration;
+            Helper.DecryptAndEncrypt.configuration = configuration;
+            Helper.DecryptAndEncrypt.setCryptoFeed();
+        }
+        public IActionResult Login()
+        {
 
+            return View();
         }
 
         [HttpPost]
@@ -21,7 +35,6 @@ namespace Curriculum_WebApp.Controllers
             UserModel logedUser = new UserModel();
 
             logedUser.userName = fc["mail"].ToString();
-
             logedUser.password = Helper.DecryptAndEncrypt.EncryptStringAES(fc["pass"].ToString());
 
             bool loginOK = dataAccess.checkCredentials(Helper.TypeConverter.UserModel_To_User(logedUser));
@@ -30,13 +43,13 @@ namespace Curriculum_WebApp.Controllers
             {
                 Models.permissionsModel.AccessGranted = true;
                 Models.permissionsModel.AccessGrantedText = "OK";
-                return View("../Home/Access");
+                return View("../Home/Index");
             }
             else
             {
                 Models.permissionsModel.AccessGrantedText = "KO";
                 Models.permissionsModel.AccessGranted = false;
-                return View("../Home/Index");
+                return View("Login");
             }
         }
     }
