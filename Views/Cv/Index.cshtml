@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Curriculum Vitae</title>
+    <link rel="stylesheet" href="~/bootstrap-icons/font/bootstrap-icons.css" />
+     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+   
+</head>
+  
+<body>
+  
+    <header>
+        @if (Curriculum_WebApp.Models.permissionsModel.AccessGranted)
+        {
+            @await Html.PartialAsync("../Shared/_MainMenu.cshtml")
+        }
+    </header>
+
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+                <partial name="CvView.cshtml" />
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <p>
+                Desarrollado con tecnología <a href="https://docs.microsoft.com/aspnet/core">ASP.NET Core</a>.
+                &copy; 2021 - Curriculum WebApp by Marco Memba - <a asp-area="" asp-controller="Home"
+                    asp-action="TCU">Términos y condiciones de uso</a>
+            </p>
+        </div>
+    </footer>
+  
+        
+      <script src="/../../node_modules/dist/popper.min.js"></script>
+      <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> 
+        
+    @* @await RenderSectionAsync("Scripts", required: false) *@
+        <script type="text/javascript">
+        //Initialize popover with jQuery
+        $(document).ready(function () {
+            $('.popovers').popover();
+        });
+    </script>
+     
+</body>
+
+</html>

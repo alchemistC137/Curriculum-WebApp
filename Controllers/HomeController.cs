@@ -18,7 +18,7 @@ namespace Curriculum_WebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         public readonly IConfiguration config;
-        permissionsModel permissionsModel;
+      
 
         public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {

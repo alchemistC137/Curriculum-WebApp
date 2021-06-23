@@ -41,14 +41,14 @@ namespace Curriculum_WebApp.Controllers
 
             if (loginOK)
             {
-                Models.permissionsModel.AccessGranted = true;
-                Models.permissionsModel.AccessGrantedText = "OK";
+                permissionsModel.AccessGranted = true;
+                permissionsModel.AccessGrantedText = "OK";
                 return View("../Home/Index");
             }
             else
             {
-                Models.permissionsModel.AccessGrantedText = "KO";
-                Models.permissionsModel.AccessGranted = false;
+                permissionsModel.AccessGrantedText = "KO";
+                permissionsModel.AccessGranted = false;
                 return View("Login");
             }
         }
