@@ -1,0 +1,89 @@
+<div class="container-fluid">
+    <div class="row border-bottom border-primary">
+        <div class="col-auto me-auto">
+            <h2>Curriculum Vitae</h2>
+        </div>
+        <div class="col-auto">
+            <button type="button" class="btn btn-secondary"><i class="bi-arrow-down-circle-fill"></i>Descargar CV</button>
+            <button type="button" class="btn btn-secondary">Enviar CV</button>
+        </div>
+
+    </div>
+
+    <div class="row mt-2">
+        <div class="col col-md-9 ">
+
+
+            <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-expL-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-expL" type="button" role="tab" aria-controls="pills-expL"
+                        aria-selected="true">Experiencia Laboral</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-formacion-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-formacion" type="button" role="tab" aria-controls="pills-formacion"
+                        aria-selected="false">Formacion</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-capacidad-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-capacidad" type="button" role="tab" aria-controls="pills-capacidad"
+                        aria-selected="false">Capacidades / Competencias</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-expL" role="tabpanel" aria-labelledby="pills-expL-tab">
+                    <partial name="expLaboral.cshtml" />
+                </div>
+                <div class="tab-pane fade" id="pills-formacion" role="tabpanel" aria-labelledby="pills-formacion-tab">
+                    <partial name="formacion.cshtml" />
+                </div>
+                <div class="tab-pane fade" id="pills-capacidad" role="tabpanel" aria-labelledby="pills-capacidad-tab">
+                    <partial name="capacidades.cshtml" />
+                </div>
+            </div>
+
+        </div>
+        <div class="col col-sm-3">
+           
+            <div class="card w-100 ">
+                 <div class="card-header bg-primary text-white text-center">Información Personal</div>
+                <div class="text-center mt-3 mb-0">
+                    <img src="/img/foto_marco.jpg" class="card-img- w-50 border border-2  border-primary rounded-circle"
+                        alt="foto marco">
+                </div>
+                
+                <div class="card-body mt-0">
+                    <p class="card-text">
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <span class="text-primary">Nombre: </span><strong>Marco Alejandro Memba Gómez</strong>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="text-primary">Teléfono movil: </span><strong>625.137.525</strong>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="text-primary">E-mail: </span><strong>marcomemba@outlook.es </strong>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="text-primary">Dirección: </span><strong>Av. Peña Prieta, Madrid Ciudad.
+                                <small>(28038)</small></strong>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="text-primary">Nacionalidad: </span><strong>Española</strong>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="text-primary">Fecha de Nacimiento:</span><strong> 22, Enero, 1987 – 34 Años
+                            </strong>
+                        </li>
+                    </ul>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

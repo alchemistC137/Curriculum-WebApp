@@ -13,19 +13,14 @@
     <header>
         @if (Curriculum_WebApp.Models.permissionsModel.AccessGranted)
         {
-           @await Html.PartialAsync("_MainMenu.cshtml") 
+            @await Html.PartialAsync("_MainMenu.cshtml")
         }
-
-      
-
     </header>
-    <div class="container-fluid">
 
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-
-
     </div>
 
     <footer class="border-top footer text-muted">
@@ -33,14 +28,18 @@
             <p>
                 Desarrollado con tecnología <a href="https://docs.microsoft.com/aspnet/core">ASP.NET Core</a>.
                 &copy; 2021 - Curriculum WebApp by Marco Memba - <a asp-area="" asp-controller="Home"
-                    asp-action="Privacy">Términos y condiciones de uso</a>
+                    asp-action="TCU">Términos y condiciones de uso</a>
             </p>
         </div>
     </footer>
+    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+ 
     @await RenderSectionAsync("Scripts", required: false)
+
+  
 </body>
 
 </html>
