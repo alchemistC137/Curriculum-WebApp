@@ -10,9 +10,10 @@ namespace Curriculum_WebApp.Controllers
     {
         DataAccess dataAccess = new DataAccess();
         permissionsModel permissionsModel;
-         public readonly IConfiguration config;
+        public readonly IConfiguration config;
         public LoginController(IConfiguration configuration)
         {
+
             // _logger = logger;
             permissionsModel = new permissionsModel();
             permissionsModel.AccessGranted = false;
