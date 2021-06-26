@@ -31,6 +31,11 @@
                         data-bs-target="#pills-capacidad" type="button" role="tab" aria-controls="pills-capacidad"
                         aria-selected="false">Capacidades / Competencias</button>
                 </li>
+                   <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-conocimientosIT-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-conocimientosIT" type="button" role="tab" aria-controls="pills-conocimientosIT"
+                        aria-selected="false">Conocimientos IT</button>
+                </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
 
@@ -42,6 +47,9 @@
                 </div>
                 <div class="tab-pane fade" id="pills-capacidad" role="tabpanel" aria-labelledby="pills-capacidad-tab">
                     <partial name="capacidades.cshtml" />
+                </div>
+                 <div class="tab-pane fade" id="pills-conocimientosIT" role="tabpanel" aria-labelledby="pills-conocimientosIT-tab">
+                    <partial name="conocimientosIT.cshtml" />
                 </div>
             </div>
 
