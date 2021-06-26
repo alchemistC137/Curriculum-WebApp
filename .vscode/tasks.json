@@ -37,6 +37,12 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
-        }
+        },
+        {
+            "label": "Sass Compile",
+            "type": "shell",
+            "command": "node-sass cvCssSass.scss CvStyles.css",
+            "group": "build"
+          }
     ]
 }
